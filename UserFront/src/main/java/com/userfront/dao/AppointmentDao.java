@@ -9,6 +9,4 @@ import com.userfront.domain.Appointment;
 public interface AppointmentDao extends CrudRepository<Appointment, Long> {
 
     List<Appointment> findAll();
-
-	Appointment findOne(Long id);
 }
